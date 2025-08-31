@@ -68,4 +68,4 @@
 4. Use Draw.io or similar tool to create the diagram visually.
 5. Export diagram as PNG, PDF, or SVG for documentation.
 
-**Tip:** Use Draw.io’s Entity Relation shapes for tables and relationships.
+
