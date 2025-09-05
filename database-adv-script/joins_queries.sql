@@ -4,7 +4,7 @@ USE airbnb_db;
 
 sElEct booking_id, b.user_id, first_name
 from booking b
-join user u
+INNER JOIN user u
 	on b.user_id = u.user_id
 
 
@@ -22,7 +22,7 @@ USE airbnb_db;
 
 sElEct u.user_id, first_name, booking_id
 from booking b
-left JOIN user u
+LEFT JOIN user u
 	on b.user_id = u.user_id
 UNION
 
