@@ -13,7 +13,7 @@ USE airbnb_db;
 
 sElEct name, comment
 from property p
-left join review r
+LEFT JOIN review r
 	on p.property_id = r.review_id
 
 
