@@ -1,3 +1,10 @@
+-- schema.sql
+
+-- ========================
+-- Airbnb Database Schema
+-- ========================
+
+-- 1. User Table
 -- AirBnB Database Schema
 
 CREATE TABLE User (
