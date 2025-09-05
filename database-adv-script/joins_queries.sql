@@ -15,14 +15,14 @@ sElEct name, comment
 from property p
 LEFT JOIN review r
 	on p.property_id = r.review_id
-
+ORDER BY p.property_id
 
 -- full outer join
 USE airbnb_db;
 
 sElEct u.user_id, first_name, booking_id
 from booking b
-LEFT JOIN user u
+FULL OUTER JOIN user u
 	on b.user_id = u.user_id
 UNION
 
